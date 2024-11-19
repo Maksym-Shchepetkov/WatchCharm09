@@ -44,7 +44,7 @@
 }
 
 .socseti-footer {
-  fill: #fbfbfbe1;
+  fill: #fbfbfba9;
 }
 
 .link-tel-footer {
@@ -236,9 +236,11 @@
     max-width: 1280px;
   }
 
-  .socseti-footer:hover,
-  .socseti-footer:focus {
-    fill: #fdfdfd;
+  .link-socseti-footer:hover .socseti-footer {
+    fill: #ffffff;
+  }
+  .link-socseti-footer:focus .socseti-footer {
+    fill: #ffffff;
   }
 
   .text-footer {
