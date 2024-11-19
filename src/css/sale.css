@@ -168,15 +168,18 @@ font-size: 48px;
 .sale-list-item{
   width: 132px;
   height: 132px ;
+  border-radius: 20px;
 }
 .sale-zoom-item{
   width: 552px;
     height:558px;
     margin-bottom: 0;
+    border-radius: 50px;
 }
 .sale-descr{
   height: 518px;
   padding: 60px;
+  border-radius: 50px;
   
 }
 .sale-descr-subtitle{
@@ -212,7 +215,8 @@ line-height: 1.13;
   }
   .sale-list-wraper{
     margin-bottom: 0;
-    width: calc((100% - 40px) / 2);
+    /* width: calc((100% - 40px) / 2); */
+    width: 580px;
    
   }
  .sale-zoom-item {
@@ -221,7 +225,8 @@ line-height: 1.13;
   .sale-descr {
     height: 558px;
     margin-bottom: 0;
-    width: calc((100% - 40px) / 2);
+    /* width: calc((100% - 40px) / 2); */
+    width: 530px;
     }
       
 
