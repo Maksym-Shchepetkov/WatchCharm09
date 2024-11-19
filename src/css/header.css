@@ -134,8 +134,8 @@
     border: 1px solid rgba(51, 80, 233, 0.1);
   }
 
-  .svg-icons:hover,
-  .svg-icons:focus {
+  .item:hover .svg-icons,
+  .item:focus .svg-icons {
     fill: #3350e9;
   }
 }
@@ -145,7 +145,7 @@
 .mobile-menu {
   position: fixed;
   top: 0;
-  right: 0c;
+  right: 0;
   max-width: 200px;
   height: 100%;
   background-color: #0c0c0c;
@@ -155,7 +155,7 @@
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    z-index: 1000;
+  z-index: 1000;
 }
 
 .mobile-menu-list {
@@ -192,7 +192,7 @@
   stroke: #fbfbfb;
 }
 
-.mobile-nav-link.mobile-current:hover::after {
+.mobile-current:focus::after {
   content: '';
   position: absolute;
   top: 260px;
@@ -272,7 +272,7 @@
     stroke-width: 3px;
   }
 
-  .mobile-nav-link.mobile-current::after {
+  .mobile-current:focus::after {
     top: 330px;
     left: 160px;
   }
