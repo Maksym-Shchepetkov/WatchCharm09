@@ -3,7 +3,9 @@
     width: 375px;
     margin-bottom: 28px;
 }
-
+.title-box{
+  
+}
 .hero-title {
     font-size: 40px;
     line-height: 0.9;
@@ -149,7 +151,7 @@ span{
   .hero-title{
     font-size: 72px; 
      line-height: 0.9;
-     width: 597px;
+     max-width: 597px;
   }
   
   .Hero-reviews {
