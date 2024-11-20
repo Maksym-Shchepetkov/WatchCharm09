@@ -55,7 +55,6 @@
 
 .sale-descr {
   border-radius: 30px;
-  height: 561px;
   background: #3350e9;
   padding: 48px 28px;
 }
@@ -177,7 +176,6 @@ font-size: 48px;
     border-radius: 50px;
 }
 .sale-descr{
-  height: 518px;
   padding: 60px;
   border-radius: 50px;
   
@@ -223,7 +221,6 @@ line-height: 1.13;
     width: 428px;
     height: 558px;}
   .sale-descr {
-    height: 558px;
     margin-bottom: 0;
     /* width: calc((100% - 40px) / 2); */
     width: 530px;
