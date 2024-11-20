@@ -163,34 +163,35 @@
     height: 558px;
     margin-bottom: 0;
     border-radius: 50px;
-  }
-  .sale-descr {
-    height: 518px;
-    padding: 60px;
-    border-radius: 50px;
-  }
-  .sale-descr-subtitle {
-    font-size: 32px;
-    line-height: 1.13;
-  }
-  .sale-descr-prices {
-    margin-bottom: 30px;
-  }
-  .sale-descr-prices-relevant {
-    width: 78px;
-    font-size: 20px;
-    line-height: 1;
-  }
-  .sale-descr-text {
-    font-size: 16px;
-    line-height: 1.25;
-    margin-bottom: 40px;
-  }
-  .sale-descr-list-item {
-    height: 34px;
-  }
-  .sale-descr-list-text {
-    font-size: 14px;
+}
+.sale-descr{
+  padding: 60px;
+  border-radius: 50px;
+  
+}
+.sale-descr-subtitle{
+font-size: 32px;
+line-height: 1.13;
+}
+.sale-descr-prices{
+  margin-bottom: 30px;
+}
+.sale-descr-prices-relevant{
+  width: 78px;
+  font-size: 20px;
+  line-height: 1;
+}
+.sale-descr-text{
+  font-size: 16px;
+  line-height: 1.25;
+  margin-bottom: 40px;
+}
+.sale-descr-list-item{
+  height: 34px;
+
+}
+.sale-descr-list-text{
+  font-size: 14px;
     line-height: 1.29;
   }
 }
@@ -209,7 +210,6 @@
     height: 558px;
   }
   .sale-descr {
-    height: 558px;
     margin-bottom: 0;
     /* width: calc((100% - 40px) / 2); */
     width: 530px;
