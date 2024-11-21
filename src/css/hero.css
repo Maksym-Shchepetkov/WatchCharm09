@@ -133,8 +133,7 @@ span {
   .container-hero {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 80px 65px 0px 65px;
+    padding: 0;
     width: 1280px;
   }
   .title-box {
