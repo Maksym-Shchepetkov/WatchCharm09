@@ -13,6 +13,10 @@
   display: none;
 }
 
+.nav-list-1 {
+  display: none;
+}
+
 .logo {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
@@ -83,6 +87,11 @@
     gap: 40px;
   }
 
+  .nav-list-1 {
+    display: flex;
+    gap: 10px;
+  }
+
   .nav-link {
     font-family: 'Gilroy', sans-serif;
     font-weight: 500;
@@ -92,19 +101,37 @@
     color: #0c0c0c;
   }
 
-  .nav-link.current {
+  .current {
     position: relative;
   }
 
-  .nav-link.current:hover::after {
+  .current:hover::after {
     content: '';
     position: absolute;
     left: 15px;
+    top: 24px;
+    right: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #3350e9;
+  }
+
+  .current-1 {
+    position: relative;
+  }
+
+  .current:hover::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
     top: 24px;
     width: 8px;
     height: 8px;
     border-radius: 100%;
     background-color: #3350e9;
+    transform: translateX(-50%);
   }
 
   .svg-icons {
@@ -118,7 +145,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-left: 163px;
+    margin-left: 203px;
   }
 
   .item {
@@ -192,7 +219,7 @@
   stroke: #fbfbfb;
 }
 
-.mobile-current:focus::after {
+.mobile-current::after {
   content: '';
   position: absolute;
   top: 260px;
@@ -269,10 +296,9 @@
     right: 32px;
     width: 40px;
     height: 40px;
-    stroke-width: 3px;
   }
 
-  .mobile-current:focus::after {
+  .mobile-current::after {
     top: 330px;
     left: 160px;
   }
