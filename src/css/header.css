@@ -176,13 +176,23 @@
   max-width: 200px;
   height: 100%;
   background-color: #0c0c0c;
-  background: url(/img/mobile-img.png);
+  background: url(/img/header/mob-menu-min.png);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1000;
+}
+
+@media screen and (min-resolution: 2dppx),
+  (min-resolution: 192dpi),
+  (-webkit-min-device-pixel-ratio: 2) {
+  .mobile-menu {
+    background-image: url(/img/header/mob-menu-2x-min.png);
+    width: 100%;
+    background-size: cover;
+  }
 }
 
 .mobile-menu-list {
@@ -282,7 +292,17 @@
 @media screen and (min-width: 768px) {
   .mobile-menu {
     max-width: 330px;
-    background: url(/img/tabmenu.jpg);
+    background: url(/img/header/tab-menu-min.png);
+  }
+
+  @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ratio: 2) {
+    .mobile-menu {
+      background-image: url(/img/header/tab-menu-2x-min.png);
+      width: 100%;
+      background-size: cover;
+    }
   }
 
   .mobile-menu-list {
