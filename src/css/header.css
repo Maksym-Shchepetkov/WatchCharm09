@@ -1,4 +1,4 @@
-.header {
+.page-header {
   background-color: #fbfbfb;
 }
 
@@ -61,7 +61,7 @@
     padding: 0 65px;
   }
 
-  .header {
+  .page-header {
     background: #fff;
   }
 
@@ -120,12 +120,11 @@
     opacity: 0.8;
   }
 
-  .header-icons {
+  .social-link{
     display: flex;
     align-items: center;
     gap: 10px;
     margin-left: 163px;
-
   }
 
   .item {
