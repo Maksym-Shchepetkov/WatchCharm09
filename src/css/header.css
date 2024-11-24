@@ -102,7 +102,7 @@
     color: #0c0c0c;
   }
 
-  .nav-link.current::after {
+     .nav-link.current:hover::after{
     content: "";
     position: absolute;
     left: 15px;
@@ -137,7 +137,13 @@
     height: 36px;
   }
 
-  .svg-icons:hover{
+.item:hover,
+.item:focus {
+  color: #3350e9;
+}
+
+  .svg-icons:hover,
+  .svg-icons:focus{
     fill: #3350e9;
   }
 }
