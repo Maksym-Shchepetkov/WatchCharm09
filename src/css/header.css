@@ -137,15 +137,10 @@
     height: 36px;
   }
 
-.item:hover,
-.item:focus {
-  color: #3350e9;
+.item:hover .svg-icons,.item:focus .svg-icons {
+  fill: #3350e9;
 }
 
-  .svg-icons:hover,
-  .svg-icons:focus{
-    fill: #3350e9;
-  }
 }
 
 /* -----mobile-menu----- */
