@@ -77,48 +77,58 @@ span {
   .container-hero {
     display: flex;
     flex-wrap: wrap;
-    padding: 80px 32px 0px 32px;
-    width: 768px;
+    min-height: 260px;
   }
   .title-box {
-    padding-right: 11px;
+    height: 260px;
     margin-bottom: 40px;
   }
+
   .hero-title {
+    font-weight: 600;
     font-size: 70px;
+    line-height: 0.85714;
+    letter-spacing: -0.02em;
     margin-bottom: 20px;
     width: 557px;
   }
+
   .hero-item {
+    font-weight: 500;
     font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
     width: 480px;
   }
+
   .Hero-reviews {
-    display: flex;
-    align-items: flex-end;
     width: 136px;
-    height: 260px;
-    margin-bottom: 40px;
-    margin: 0;
+    min-height: 260px;
+    margin: 0 0 0 auto;
+  }
+
+  .hero-img-card {
+    width: 56px;
+    height: 56px;
   }
 
   .hero-img:nth-child(1) {
-    top: 5px;
-    left: 15px;
+    top: 0px;
+    left: 0px;
 
     z-index: 2;
   }
 
   .hero-img:nth-child(2) {
-    top: 5px;
-    left: 45px;
+    top: 0px;
+    left: 40px;
 
     z-index: 3;
   }
 
   .hero-img:nth-child(3) {
-    top: 5px;
-    left: 75px;
+    top: 0px;
+    left: 80px;
 
     z-index: 3;
   }
@@ -134,10 +144,17 @@ span {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    width: 1280px;
+    width: auto;
+  }
+
+  .Hero-reviews {
+    width: 146px;
+    min-height: 269px;
+    margin-left: auto;
+    margin-bottom: 40px;
   }
   .title-box {
-    padding-right: 407px;
+    height: 269px;
     margin-bottom: 40px;
   }
   .hero-title {
@@ -146,24 +163,32 @@ span {
     width: 597px;
   }
 
+  .hero-img-card {
+    width: 60px;
+    height: 60px;
+  }
+
   .hero-img:nth-child(1) {
     top: 0px;
-    left: 25px;
-
+    left: 0;
+    width: 60px;
+    height: 60px;
     z-index: 2;
   }
 
   .hero-img:nth-child(2) {
     top: 0px;
-    left: 60px;
-
+    left: 44px;
+    width: 60px;
+    height: 60px;
     z-index: 3;
   }
 
   .hero-img:nth-child(3) {
     top: 0px;
-    left: 95px;
-
+    left: 86px;
+    width: 60px;
+    height: 60px;
     z-index: 3;
   }
 
